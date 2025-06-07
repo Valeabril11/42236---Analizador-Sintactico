@@ -1,0 +1,5 @@
+funcion saludar(nombre) {
+    escribir("Hola " + nombre);
+    leer(edad);
+    resultado = (edad * 2) + 5;
+}

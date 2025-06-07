@@ -1,0 +1,4 @@
+funcion error2() {
+    escribir("Texto sin cerrar);  // Falta la comilla final
+    y = "otra_cadena;            // Error similar
+}

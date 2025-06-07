@@ -1,0 +1,4 @@
+funcion error1() {
+    escribir("Test")  // Falta ';'
+    x = 5             // Falta ';'
+}
