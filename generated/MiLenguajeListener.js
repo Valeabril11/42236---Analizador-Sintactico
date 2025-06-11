@@ -1,4 +1,4 @@
-// Generated from c://Users//Drmal//ANALIZADOR VALEN//MiLenguaje.g4 by ANTLR 4.13.2
+// Generated from c://Users//Drmal//42236---Analizador-Sintactico//MiLenguaje.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 
@@ -68,6 +68,33 @@ export default class MiLenguajeListener extends antlr4.tree.ParseTreeListener {
 	}
 
 
+	// Enter a parse tree produced by MiLenguajeParser#Div.
+	enterDiv(ctx) {
+	}
+
+	// Exit a parse tree produced by MiLenguajeParser#Div.
+	exitDiv(ctx) {
+	}
+
+
+	// Enter a parse tree produced by MiLenguajeParser#Add.
+	enterAdd(ctx) {
+	}
+
+	// Exit a parse tree produced by MiLenguajeParser#Add.
+	exitAdd(ctx) {
+	}
+
+
+	// Enter a parse tree produced by MiLenguajeParser#Sub.
+	enterSub(ctx) {
+	}
+
+	// Exit a parse tree produced by MiLenguajeParser#Sub.
+	exitSub(ctx) {
+	}
+
+
 	// Enter a parse tree produced by MiLenguajeParser#parens.
 	enterParens(ctx) {
 	}
@@ -86,21 +113,12 @@ export default class MiLenguajeListener extends antlr4.tree.ParseTreeListener {
 	}
 
 
-	// Enter a parse tree produced by MiLenguajeParser#MulDiv.
-	enterMulDiv(ctx) {
+	// Enter a parse tree produced by MiLenguajeParser#Mul.
+	enterMul(ctx) {
 	}
 
-	// Exit a parse tree produced by MiLenguajeParser#MulDiv.
-	exitMulDiv(ctx) {
-	}
-
-
-	// Enter a parse tree produced by MiLenguajeParser#AddSub.
-	enterAddSub(ctx) {
-	}
-
-	// Exit a parse tree produced by MiLenguajeParser#AddSub.
-	exitAddSub(ctx) {
+	// Exit a parse tree produced by MiLenguajeParser#Mul.
+	exitMul(ctx) {
 	}
 
 

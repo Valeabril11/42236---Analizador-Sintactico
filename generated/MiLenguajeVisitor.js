@@ -1,4 +1,4 @@
-// Generated from c://Users//Drmal//ANALIZADOR VALEN//MiLenguaje.g4 by ANTLR 4.13.2
+// Generated from c://Users//Drmal//42236---Analizador-Sintactico//MiLenguaje.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 
@@ -48,6 +48,24 @@ export default class MiLenguajeVisitor extends antlr4.tree.ParseTreeVisitor {
 	}
 
 
+	// Visit a parse tree produced by MiLenguajeParser#Div.
+	visitDiv(ctx) {
+	  return this.visitChildren(ctx);
+	}
+
+
+	// Visit a parse tree produced by MiLenguajeParser#Add.
+	visitAdd(ctx) {
+	  return this.visitChildren(ctx);
+	}
+
+
+	// Visit a parse tree produced by MiLenguajeParser#Sub.
+	visitSub(ctx) {
+	  return this.visitChildren(ctx);
+	}
+
+
 	// Visit a parse tree produced by MiLenguajeParser#parens.
 	visitParens(ctx) {
 	  return this.visitChildren(ctx);
@@ -60,14 +78,8 @@ export default class MiLenguajeVisitor extends antlr4.tree.ParseTreeVisitor {
 	}
 
 
-	// Visit a parse tree produced by MiLenguajeParser#MulDiv.
-	visitMulDiv(ctx) {
-	  return this.visitChildren(ctx);
-	}
-
-
-	// Visit a parse tree produced by MiLenguajeParser#AddSub.
-	visitAddSub(ctx) {
+	// Visit a parse tree produced by MiLenguajeParser#Mul.
+	visitMul(ctx) {
 	  return this.visitChildren(ctx);
 	}
 

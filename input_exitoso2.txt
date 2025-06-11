@@ -1,9 +1,6 @@
-funcion suma(a, b) {
-    escribir(a + b);
-}
-
-funcion principal() {
-    x = 10;
-    y = 20;
-    suma(x, y);
+funcion calcularArea() {
+    leer(base);
+    leer(altura);
+    area = base * altura;
+    escribir(area);
 }
